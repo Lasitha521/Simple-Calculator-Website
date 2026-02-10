@@ -1,7 +1,7 @@
 <html>
 
 <head>
-    <title>Simplle Calculator</title>
+    <title>Simple Calculator</title>
 
 
     <link rel="icon" href="resources/images/calculator.png" />
