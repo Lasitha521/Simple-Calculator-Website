@@ -3,7 +3,7 @@ Responsive and Attractive UI  Simple calculator web site using HTML, CSS, Bootst
 
 
 🚀 Features 
-       👨‍💻 supports addition, substraction, multiplication and division. I includes squre root                 using Math.sqrt() logic.
+       👨‍💻 supports addition, substraction, multiplication and division. I includes squre root using Math.sqrt() logic.
        
        👨‍💻 Enter CE(Clear Entry), we can reset the calculator.
        
@@ -22,8 +22,8 @@ Responsive and Attractive UI  Simple calculator web site using HTML, CSS, Bootst
       
       ✔️Bootstrap : Responsive grid layout and UI components
       
-      ✔️Java Script : logic implementation using "Onclick" event handlers and "switch"                    statements.
+      ✔️Java Script : logic implementation using "Onclick" event handlers and "switch" statements.
 📸 Project Preiview
 
-    <img width="800" height="600" alt="image" src="https://github.com/user-attachments/assets/855dc99e-091b-4b56-91af-9a32716f94d1" />
+ <img width="800" height="600" alt="Calculator Preview" src="https://github.com/user-attachments/assets/4c61d6bb-c3ee-42cc-b7b9-31989be2758d" />
    
