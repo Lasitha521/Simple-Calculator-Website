@@ -62,6 +62,7 @@ function cal(btn) {
 }
 
 function solve() {
+    if (operator === "" || num1 === "") return;
     var res = 0;
     var n1 = parseFloat(num1);
     var n2 = parseFloat(num2);
@@ -83,4 +84,5 @@ function solve() {
 
     display.value = res;
     num1 = res.toString();
+    operator = "";
 }
