@@ -82,6 +82,11 @@ function solve() {
 
     }
 
+    if (typeof res === 'number' && !Number.isInteger(res)) {
+        res = parseFloat(res.toFixed(8));
+        
+    }
+
     display.value = res;
     num1 = res.toString();
     operator = "";
