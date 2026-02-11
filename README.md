@@ -25,5 +25,5 @@ Responsive and Attractive UI  Simple calculator web site using HTML, CSS, Bootst
       ✔️Java Script : logic implementation using "Onclick" event handlers and "switch" statements.
 📸 Project Preiview
 
- <img width="800" height="600" alt="Calculator Preview" src="https://github.com/user-attachments/assets/4c61d6bb-c3ee-42cc-b7b9-31989be2758d" />
+ <img width="800" height="600" alt="Calculator Preview" src="https://github.com/user-attachments/assets/6dc9f13b-c27c-4e34-8c59-8b544b397700" />
    
