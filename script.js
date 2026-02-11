@@ -57,15 +57,20 @@ function cal(btn) {
     else {
         num1 = display.value;
         operator = value;
-        display.value = ""
+        display.value += ""+ value +"";
     }
 }
 
 function solve() {
     if (operator === "" || num1 === "") return;
+    var parts = display.value.split(operator);
+    num2 = parts[parts.length - 1].trim();
     var res = 0;
     var n1 = parseFloat(num1);
     var n2 = parseFloat(num2);
+
+    if (isNaN(n2)) return;
+    
 
     switch (operator) {
         case "+": res = n1 + n2; break;
