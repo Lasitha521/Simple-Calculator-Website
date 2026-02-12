@@ -15,9 +15,9 @@ function cal(btn) {
                 display.value += value;
 
             }
-            
 
-        } else{
+
+        } else {
             console.log("Limit Reached");
         }
 
@@ -30,13 +30,13 @@ function cal(btn) {
         operator = "";
 
 
-    } else if (value === "←" || value === "DEL"){
+    } else if (value === "←" || value === "DEL") {
         if (display.value.length > 1) {
             display.value = display.value.slice(0, -1);
-            
+
         } else {
             display.value = "0";
-            
+
         }
 
     }
@@ -57,7 +57,7 @@ function cal(btn) {
     else {
         num1 = display.value;
         operator = value;
-        display.value += ""+ value +"";
+        display.value += "" + value + "";
     }
 }
 
@@ -70,7 +70,7 @@ function solve() {
     var n2 = parseFloat(num2);
 
     if (isNaN(n2)) return;
-    
+
 
     switch (operator) {
         case "+": res = n1 + n2; break;
@@ -89,7 +89,7 @@ function solve() {
 
     if (typeof res === 'number' && !Number.isInteger(res)) {
         res = parseFloat(res.toFixed(8));
-        
+
     }
 
     display.value = res;
